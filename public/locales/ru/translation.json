@@ -1,0 +1,123 @@
+{
+  "header": {
+    "title": "Главная"
+  },
+  "menu": {
+    "about": "Обо мне",
+    "techStack": "Технологии",
+    "projects": "Проекты",
+    "contacts": "Контакты"
+  },
+  "introduction": {
+    "title": "Привет!",
+    "subtitle": "Я",
+    "firstName": "Станислав",
+    "lastName": "Зайцев",
+    "jobTitle": "Веб-разработчик",
+    "cvButton": "Скачать CV"
+  },
+  "about": {
+    "title": "Обо мне",
+    "intro": "Я увлеченный веб-разработчик с прочной основой в современных веб-технологиях. Мой путь в веб-разработке позволил мне приобрести навыки создания отзывчивых, удобных и эффективных веб-приложений.",
+    "experience": "Имея опыт как во фронтенд, так и в бэкенд разработке, я стремлюсь создавать приложения, которые не только хорошо выглядят, но и отлично работают. Я постоянно учусь и адаптируюсь к новым технологиям, чтобы оставаться на переднем крае веб-разработки."
+  },
+  "techStack": {
+    "title": "Технологии",
+    "html": {
+      "name": "HTML",
+      "description": "Семантическая разметка, доступность, адаптивный дизайн"
+    },
+    "css": {
+      "name": "CSS",
+      "description": "Flexbox, Grid, анимации, адаптивный дизайн"
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "description": "ES6+, манипуляции с DOM, асинхронное программирование"
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "description": "Типизация, интерфейсы, дженерики"
+    },
+    "react": {
+      "name": "React",
+      "description": "Хуки, компоненты, управление состоянием"
+    },
+    "next": {
+      "name": "Next.js",
+      "description": "Серверные компоненты, маршрутизация, API"
+    },
+    "node": {
+      "name": "Node.js",
+      "description": "Express, REST API, аутентификация"
+    },
+    "git": {
+      "name": "Git",
+      "description": "Контроль версий, ветвление, совместная работа"
+    }
+  },
+  "projects": {
+    "title": "Проекты",
+    "list": {
+      "next": {
+        "name": "NEXT.JS",
+        "description": "Серверные компоненты, маршрутизация, API"
+      },
+      "movies": {
+        "name": "Приложение для поиска фильмов",
+        "description": "Приложение для поиска фильмов"
+      },
+      "mesto": {
+        "name": "Сервис для обмена фотографиями",
+        "description": "Сервис для обмена фотографиями"
+      },
+      "todolist": {
+        "name": "Список задач",
+        "description": "Список задач"
+      },
+      "drummachine": {
+        "name": "Драм Машина",
+        "description": "Драм Машина"
+      },
+      "express": {
+        "name": "Express.js",
+        "description": "Express.js"
+      },
+      "react": {
+        "name": "React",
+        "description": "React"
+      },
+      "game": {
+        "name": "Игра на React",
+        "description": "Игра на React"
+      },
+      "javascript": {
+        "name": "JavaScript",
+        "description": "JavaScript"
+      },
+      "warTimer": {
+        "name": "Таймер войны",
+        "description": "Таймер войны"
+      },
+      "gridFlex": {
+        "name": "Grid & FlexBox",
+        "description": "Grid & FlexBox"
+      },
+      "adaptive": {
+        "name": "Адаптивный сайт",
+        "description": "Адаптивный сайт"
+      }
+    },
+    "buttons": {
+      "web": "Сайт",
+      "github": "GitHub"
+    }
+  },
+  "contacts": {
+    "title": "Контакты"
+  },
+  "footer": {
+    "rights": "Все права защищены",
+    "title": "Станислав Зайцев"
+  }
+}

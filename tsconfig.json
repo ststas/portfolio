@@ -1,22 +1,44 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "incremental": true,
+    // BUNDLER MODE
     "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noEmit": true,
     "jsx": "preserve",
-    "incremental": true,
+    // LINTING
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+      "components/*": ["./src/components/*"],
+      "common/*": ["./src/common/*"],
+      "pages/*": ["./src/pages/*"],
+      "styles/*": ["./src/styles/*"],
+      "utils/*": ["./src/utils/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "types/*": ["./src/types/*"],
+      "constants/*": ["./src/constants/*"],
+      "i18n/*": ["./src/i18n/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

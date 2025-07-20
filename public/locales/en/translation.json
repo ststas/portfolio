@@ -1,0 +1,124 @@
+{
+  "header": {
+    "title": "Home"
+  },
+  "menu": {
+    "about": "About Me",
+    "techStack": "Tech Stack",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "introduction": {
+    "title": "Hello!",
+    "subtitle": "I am",
+    "firstName": "Stanislav",
+    "lastName": "Zaitsev",
+    "jobTitle": "Web Developer",
+    "cvButton": "Get CV"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I am a passionate web developer with a strong foundation in modern web technologies. My journey in web development has equipped me with the skills to create responsive, user-friendly, and efficient web applications.",
+    "experience": "With experience in both front-end and back-end development, I strive to build applications that not only look great but also perform exceptionally well. I am constantly learning and adapting to new technologies to stay at the forefront of web development."
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "html": {
+      "name": "HTML",
+      "description": "Semantic markup, accessibility, responsive design"
+    },
+    "css": {
+      "name": "CSS",
+      "description": "Flexbox, Grid, animations, responsive design"
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "description": "ES6+, DOM manipulation, async programming"
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "description": "Type safety, interfaces, generics"
+    },
+    "react": {
+      "name": "React",
+      "description": "Hooks, components, state management"
+    },
+    "next": {
+      "name": "Next.js",
+      "description": "Server components, routing, API routes"
+    },
+    "node": {
+      "name": "Node.js",
+      "description": "Express, REST APIs, authentication"
+    },
+    "git": {
+      "name": "Git",
+      "description": "Version control, branching, collaboration"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "list": {
+      "next": {
+        "name": "NEXT.JS",
+        "description": "Server components, routing, API routes"
+      },
+      "movies": {
+        "name": "Movies Web App",
+        "description": "Movies Web App"
+      },
+      "mesto": {
+        "name": "Mesto Web App",
+        "description": "Mesto Web App"
+      },
+      "todolist": {
+        "name": "TodoList TS",
+        "description": "TodoList TS"
+      },
+      "drummachine": {
+        "name": "DrumMachine",
+        "description": "DrumMachine Synthesizer"
+      },
+      "express": {
+        "name": "Express.js",
+        "description": "Express.js"
+      },
+      "react": {
+        "name": "React",
+        "description": "React"
+      },
+      "game": {
+        "name": "Game On React",
+        "description": "Game On React"
+      },
+      "javascript": {
+        "name": "JavaScript",
+        "description": "JavaScript"
+      },
+      "warTimer": {
+        "name": "War Timer JS",
+        "description": "War Timer JS"
+      },
+      "gridFlex": {
+        "name": "Grid & FlexBox",
+        "description": "Grid & FlexBox"
+      },
+      "adaptive": {
+        "name": "Adaptive Website",
+        "description": "Adaptive Website"
+      }
+    },
+    "buttons": {
+      "web": "Web",
+      "github": "GitHub"
+    }
+  },
+  "contacts": {
+    "title": "Contacts"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "contacts": "Contacts",
+    "title": "Stanislav Zaitsev"
+  }
+}
