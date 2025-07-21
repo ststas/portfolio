@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { memo, useCallback, useRef, useState } from "react";
 
-import BurgerButton from "./BurgerButton";
-import DesktopMenu from "./DesktopMenu";
-import MobileMenu from "./MobileMenu";
-import { useMenuItems } from "./useMenuItems";
+import BurgerButton from "./Menus/BurgerButton";
+import DesktopMenu from "./Menus/DesktopMenu";
+import MobileMenu from "./Menus/MobileMenu";
+import { useMenuItems } from "./Menus/useMenuItems";
 import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 function Header(): JSX.Element {
