@@ -55,8 +55,8 @@ jobs:
             npm run lint
             npm run build
 
-            # Install PM2 globally
-            npm install -g pm2
+            # Install PM2 globally with sudo
+            sudo npm install -g pm2
 
             # Stop and delete existing PM2 process
             pm2 delete portfolio || echo "No existing PM2 process"
