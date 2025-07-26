@@ -8,11 +8,11 @@ import { MenuClickHandler, MenuItem } from "./types";
 type Props = {
   items: MenuItem[];
   isOpen: boolean;
+  onCloseMenu: () => void;
   onItemClick: MenuClickHandler;
-  closeMenu: () => void;
 };
 
-function MobileMenu({ items, isOpen, onItemClick, closeMenu }: Props): JSX.Element {
+function MobileMenu({ items, isOpen, onItemClick, onCloseMenu }: Props): JSX.Element {
   return (
     <div
       className={`grid transition-all duration-200 ease-in-out md:hidden ${
@@ -32,7 +32,7 @@ function MobileMenu({ items, isOpen, onItemClick, closeMenu }: Props): JSX.Eleme
             </Link>
           ))}
           <div className="flex">
-            <LanguageButtons closeMenu={closeMenu} />
+            <LanguageButtons onCloseMenu={onCloseMenu} />
           </div>
         </div>
       </div>

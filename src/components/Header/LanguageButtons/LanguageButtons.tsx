@@ -9,10 +9,10 @@ import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 import LanguageButton from "./LanguageButton";
 
 type Props = {
-  closeMenu: () => void;
+  onCloseMenu: () => void;
 };
 
-function LanguageButtons({ closeMenu }: Props): JSX.Element {
+function LanguageButtons({ onCloseMenu }: Props): JSX.Element {
   const { i18n } = useTranslation();
   const {
     header: { languages },
@@ -23,10 +23,10 @@ function LanguageButtons({ closeMenu }: Props): JSX.Element {
       i18n.changeLanguage(lng);
       if (typeof window !== "undefined") {
         document.documentElement.dir = lng === "he" ? "rtl" : "ltr";
-        closeMenu();
+        onCloseMenu();
       }
     },
-    [i18n, closeMenu]
+    [i18n, onCloseMenu]
   );
 
   return (
