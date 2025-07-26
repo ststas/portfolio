@@ -31,7 +31,7 @@ function TechCard({ item, translations }: Props): JSX.Element {
           src={icon}
         />
       </div>
-      <span className="text-gray-700">{name}</span>
+      <div className="text-center text-gray-700">{name}</div>
     </Link>
   );
 }
