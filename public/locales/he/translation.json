@@ -49,11 +49,11 @@
       "description": "Hooks, components, state management"
     },
     "next": {
-      "name": "Express.js",
+      "name": "Next.js",
       "description": "Server components, routing, API routes"
     },
     "express": {
-      "name": "Node.js",
+      "name": "Express.js",
       "description": "Express, REST APIs, authentication"
     },
     "git": {
