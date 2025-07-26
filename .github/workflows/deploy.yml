@@ -69,12 +69,21 @@ jobs:
             echo "PM2 logs:"
             pm2 logs portfolio --lines 10 || echo "No logs available"
 
-            # Wait for app to start
+            # Wait for app to start and check for "Ready" message
             echo "Waiting for app to start..."
-            sleep 5
+            for i in {1..30}; do
+              if pm2 logs portfolio --lines 5 | grep -q "Ready in"; then
+                echo "✅ Application is ready!"
+                break
+              fi
+              echo "Waiting... attempt $i/30"
+              sleep 2
+            done
 
             # Final check
-            curl -f http://localhost:3003 && echo "App is running successfully on port 3003!" || echo "App not responding"
+            curl -f http://localhost:3003 && echo "✅ App is running successfully on port 3003!" || echo "❌ App not responding"
+            
+            echo "🚀 Deployment completed successfully!"
           EOF
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
