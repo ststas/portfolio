@@ -8,7 +8,12 @@ const __dirname = dirname(__filename);
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["images.unsplash.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
   },
   webpack: (config) => {
     config.module.rules.push({

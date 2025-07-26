@@ -19,9 +19,9 @@ export const PROJECTS_NAMES: Record<string, string> = {
 export const PROJECTS: ProjectType[] = [
   {
     name: PROJECTS_NAMES.next,
-    image: "/images/project-bootstrap.jpg",
-    webLink: "https://ststas.github.io/",
-    githubLink: "https://github.com/ststas/bootstrap-test",
+    image: "/images/project-portfolio.jpg",
+    webLink: "https://ststas.dev",
+    githubLink: "https://github.com/ststas/portfolio",
   },
   {
     name: PROJECTS_NAMES.storyBook,
