@@ -63,10 +63,10 @@ function Header(): JSX.Element {
           <BurgerButton isOpen={isMenuOpen} onClick={toggleMenu} />
         </div>
         <MobileMenu
+          closeMenu={closeMenu}
           isOpen={isMenuOpen}
           items={menuItems}
           onItemClick={handleClick}
-          closeMenu={closeMenu}
         />
       </nav>
     </header>

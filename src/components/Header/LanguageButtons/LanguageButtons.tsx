@@ -5,7 +5,6 @@ import { GlobeIcon } from "@/components/common/GlobeIcon";
 import { SUPPORTED_LOCALES } from "@/i18n/locales";
 import { SupportedLocaleType } from "@/i18n/types";
 import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
-import { MenuClickHandler } from "@/components/Header/Menus/types";
 
 import LanguageButton from "./LanguageButton";
 
@@ -27,7 +26,7 @@ function LanguageButtons({ closeMenu }: Props): JSX.Element {
         closeMenu();
       }
     },
-    [i18n]
+    [i18n, closeMenu]
   );
 
   return (
