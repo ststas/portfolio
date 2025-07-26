@@ -69,13 +69,29 @@ export function usePortfolioTranslations(): PortfolioTranslationsType {
             name: t("techStack.next.name"),
             description: t("techStack.next.description"),
           },
-          [TECH_ITEMS_NAMES.NodeJS]: {
-            name: t("techStack.node.name"),
-            description: t("techStack.node.description"),
+          [TECH_ITEMS_NAMES.Express]: {
+            name: t("techStack.express.name"),
+            description: t("techStack.express.description"),
           },
           [TECH_ITEMS_NAMES.Git]: {
             name: t("techStack.git.name"),
             description: t("techStack.git.description"),
+          },
+          [TECH_ITEMS_NAMES.ApolloGraphQL]: {
+            name: t("techStack.apollo.name"),
+            description: t("techStack.apollo.description"),
+          },
+          [TECH_ITEMS_NAMES.StoryBook]: {
+            name: t("techStack.storybook.name"),
+            description: t("techStack.storybook.description"),
+          },
+          [TECH_ITEMS_NAMES.Docker]: {
+            name: t("techStack.docker.name"),
+            description: t("techStack.docker.description"),
+          },
+          [TECH_ITEMS_NAMES.MongoDB]: {
+            name: t("techStack.mongodb.name"),
+            description: t("techStack.mongodb.description"),
           },
         },
       },
@@ -126,9 +142,13 @@ export function usePortfolioTranslations(): PortfolioTranslationsType {
             name: t("projects.list.gridFlex.name"),
             description: t("projects.list.gridFlex.description"),
           },
-          [PROJECTS_NAMES.adaptive]: {
-            name: t("projects.list.adaptive.name"),
-            description: t("projects.list.adaptive.description"),
+          // [PROJECTS_NAMES.adaptive]: {
+          //   name: t("projects.list.adaptive.name"),
+          //   description: t("projects.list.adaptive.description"),
+          // },
+          [PROJECTS_NAMES.storyBook]: {
+            name: t("projects.list.storyBook.name"),
+            description: t("projects.list.storyBook.description"),
           },
         },
         buttons: {

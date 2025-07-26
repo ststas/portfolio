@@ -10,10 +10,6 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com"],
   },
-  i18n: {
-    locales: ["en", "zh"],
-    defaultLocale: "en",
-  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.(mp4|webm)$/,

@@ -4,7 +4,7 @@
   },
   "menu": {
     "about": "About Me",
-    "techStack": "Tech Stack",
+    "techStack": "Technologies",
     "projects": "Projects",
     "contacts": "Contacts"
   },
@@ -18,16 +18,16 @@
     "subtitle": "I am",
     "firstName": "Stanislav",
     "lastName": "Zaitsev",
-    "jobTitle": "Web Developer",
+    "jobTitle": "Frontend Developer",
     "cvButton": "Get CV"
   },
   "about": {
     "title": "About Me",
-    "intro": "I am a passionate web developer with a strong foundation in modern web technologies. My journey in web development has equipped me with the skills to create responsive, user-friendly, and efficient web applications.",
-    "experience": "With experience in both front-end and back-end development, I strive to build applications that not only look great but also perform exceptionally well. I am constantly learning and adapting to new technologies to stay at the forefront of web development."
+    "intro": "I'm a frontend developer who enjoys turning complex ideas into clean, interactive user experiences. With a strong foundation in modern web technologies, I focus on building responsive, accessible, and maintainable interfaces that feel intuitive to use.",
+    "experience": "While I understand the full stack, my passion lies in crafting the visual and interactive parts of the web. I’m always exploring new tools, frameworks, and best practices to keep improving and to create thoughtful, high-performing applications. If you have a project in mind or just want to connect - don’t hesitate to reach out."
   },
   "techStack": {
-    "title": "Tech Stack",
+    "title": "Technologies",
     "html": {
       "name": "HTML",
       "description": "Semantic markup, accessibility, responsive design"
@@ -52,20 +52,36 @@
       "name": "Next.js",
       "description": "Server components, routing, API routes"
     },
-    "node": {
-      "name": "Node.js",
+    "express": {
+      "name": "Express.js",
       "description": "Express, REST APIs, authentication"
     },
     "git": {
       "name": "Git",
       "description": "Version control, branching, collaboration"
+    },
+    "apollo": {
+      "name": "Apollo GraphQL",
+      "description": "GraphQL, Apollo Client, Apollo Server"
+    },
+    "storybook": {
+      "name": "StoryBook",
+      "description": "StoryBook"
+    },
+    "docker": {
+      "name": "Docker",
+      "description": "Containerization, orchestration, CI/CD"
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "description": "MongoDB, Mongoose"
     }
   },
   "projects": {
     "title": "Projects",
     "list": {
       "next": {
-        "name": "NEXT.JS",
+        "name": "Portfolio SSR App",
         "description": "Server components, routing, API routes"
       },
       "movies": {
@@ -81,7 +97,7 @@
         "description": "TodoList TS"
       },
       "drummachine": {
-        "name": "DrumMachine",
+        "name": "DrumMachine MVP",
         "description": "DrumMachine Synthesizer"
       },
       "express": {
@@ -111,6 +127,10 @@
       "adaptive": {
         "name": "Adaptive Website",
         "description": "Adaptive Website"
+      },
+      "storyBook": {
+        "name": "StoryBook + VISX",
+        "description": "StoryBook и VISX"
       }
     },
     "buttons": {

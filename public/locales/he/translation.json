@@ -1,12 +1,12 @@
 {
   "header": {
-    "title": "Home"
+    "title": "למעלה"
   },
   "menu": {
-    "about": "About Me",
-    "techStack": "Tech Stack",
-    "projects": "Projects",
-    "contacts": "Contacts"
+    "about": "עליי",
+    "techStack": "טכנולוגיות",
+    "projects": "פרויקטים",
+    "contacts": "צור קשר"
   },
   "language": {
     "en": "עבר",
@@ -14,20 +14,20 @@
     "ru": "רוס"
   },
   "introduction": {
-    "title": "Hello!",
-    "subtitle": "I am",
-    "firstName": "Stanislav",
-    "lastName": "Zaitsev",
-    "jobTitle": "Web Developer",
-    "cvButton": "Get CV"
+    "title": "שלום!",
+    "subtitle": "אני",
+    "firstName": "סטניסלב",
+    "lastName": "זייצב",
+    "jobTitle": "מפתח פרונטאנד",
+    "cvButton": "הצגת קורות חיים"
   },
   "about": {
-    "title": "About Me",
-    "intro": "I am a passionate web developer with a strong foundation in modern web technologies. My journey in web development has equipped me with the skills to create responsive, user-friendly, and efficient web applications.",
-    "experience": "With experience in both front-end and back-end development, I strive to build applications that not only look great but also perform exceptionally well. I am constantly learning and adapting to new technologies to stay at the forefront of web development."
+    "title": "עליי",
+    "intro": "אני מפתח פרונטנד שנהנה להפוך רעיונות מורכבים לחוויות משתמש נקיות ואינטראקטיביות. עם בסיס חזק בטכנולוגיות ווב מודרניות, אני מתמקד בבניית ממשקים רספונסיביים, נגישים וקלים לתחזוקה — שמרגישים אינטואיטיביים ונוחים לשימוש.",
+    "experience": "למרות שאני מכיר גם את הצד של ה־Full Stack, התשוקה האמיתית שלי היא לפן הוויזואלי והאינטראקטיבי של הרשת. אני כל הזמן לומד כלים וטכנולוגיות חדשות כדי להשתפר וליצור ממשקים חכמים, מהירים ומוקפדים. אם יש לכם רעיון לפרויקט — או שפשוט בא לכם לדבר — אל תהססו לפנות אליי."
   },
   "techStack": {
-    "title": "Tech Stack",
+    "title": "טכנולוגיות",
     "html": {
       "name": "HTML",
       "description": "Semantic markup, accessibility, responsive design"
@@ -49,23 +49,39 @@
       "description": "Hooks, components, state management"
     },
     "next": {
-      "name": "Next.js",
+      "name": "Express.js",
       "description": "Server components, routing, API routes"
     },
-    "node": {
+    "express": {
       "name": "Node.js",
       "description": "Express, REST APIs, authentication"
     },
     "git": {
       "name": "Git",
       "description": "Version control, branching, collaboration"
+    },
+    "apollo": {
+      "name": "Apollo GraphQL",
+      "description": "GraphQL, Apollo Client, Apollo Server"
+    },
+    "storybook": {
+      "name": "StoryBook",
+      "description": "StoryBook"
+    },
+    "docker": {
+      "name": "Docker",
+      "description": "Containerization, orchestration, CI/CD"
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "description": "MongoDB, Mongoose"
     }
   },
   "projects": {
-    "title": "Projects",
+    "title": "פרויקטים",
     "list": {
       "next": {
-        "name": "NEXT.JS",
+        "name": "Portfolio SSR App",
         "description": "Server components, routing, API routes"
       },
       "movies": {
@@ -81,7 +97,7 @@
         "description": "TodoList TS"
       },
       "drummachine": {
-        "name": "DrumMachine",
+        "name": "DrumMachine MVP",
         "description": "DrumMachine Synthesizer"
       },
       "express": {
@@ -111,6 +127,10 @@
       "adaptive": {
         "name": "Adaptive Website",
         "description": "Adaptive Website"
+      },
+      "storyBook": {
+        "name": "StoryBook + VISX",
+        "description": "StoryBook и VISX"
       }
     },
     "buttons": {
@@ -119,11 +139,11 @@
     }
   },
   "contacts": {
-    "title": "Contacts"
+    "title": "צור קשר"
   },
   "footer": {
-    "rights": "All rights reserved",
-    "contacts": "Contacts",
-    "title": "Stanislav Zaitsev"
+    "rights": "כל הזכויות שמורות",
+    "contacts": "צור קשר",
+    "title": "סטניסלב זייצב"
   }
 }

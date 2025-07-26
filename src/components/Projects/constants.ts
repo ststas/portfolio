@@ -12,7 +12,8 @@ export const PROJECTS_NAMES: Record<string, string> = {
   javascript: "javascript",
   warTimer: "warTimer",
   gridFlex: "gridFlex",
-  adaptive: "adaptive",
+  // adaptive: "adaptive",
+  storyBook: "storyBook",
 } as const;
 
 export const PROJECTS: ProjectType[] = [
@@ -23,16 +24,16 @@ export const PROJECTS: ProjectType[] = [
     githubLink: "https://github.com/ststas/bootstrap-test",
   },
   {
+    name: PROJECTS_NAMES.storyBook,
+    image: "/images/project-storybook.jpg",
+    webLink: "https://ststas.dev/storybook/",
+    githubLink: "https://github.com/ststas/storybook",
+  },
+  {
     name: PROJECTS_NAMES.movies,
     image: "/images/project-movies-explorer.jpg",
     webLink: "https://ststas.dev/movies/",
     githubLink: "https://github.com/ststas/movies-explorer",
-  },
-  {
-    name: PROJECTS_NAMES.mesto,
-    image: "/images/project-front-backend.jpg",
-    webLink: "https://ststas.dev/mesto/",
-    githubLink: "https://github.com/ststas/react-mesto-api-full-gha",
   },
   {
     name: PROJECTS_NAMES.todolist,
@@ -44,6 +45,12 @@ export const PROJECTS: ProjectType[] = [
     name: PROJECTS_NAMES.drummachine,
     image: "/images/project-drummachine.jpg",
     webLink: "https://ststas.github.io/projects/drummachine",
+  },
+  {
+    name: PROJECTS_NAMES.mesto,
+    image: "/images/project-front-backend.jpg",
+    webLink: "https://ststas.dev/mesto/",
+    githubLink: "https://github.com/ststas/react-mesto-api-full-gha",
   },
   {
     name: PROJECTS_NAMES.express,
@@ -79,12 +86,12 @@ export const PROJECTS: ProjectType[] = [
     image: "/images/project-littlefatboy.jpg",
     webLink: "https://ststas.github.io/projects/littlefatboy",
   },
-  {
-    name: PROJECTS_NAMES.adaptive,
-    image: "/images/project-travel.jpg",
-    webLink: "https://ststas.github.io/projects/russian-travel",
-    githubLink: "https://github.com/ststas/russian-travel",
-  },
+  // {
+  //   name: PROJECTS_NAMES.adaptive,
+  //   image: "/images/project-travel.jpg",
+  //   webLink: "https://ststas.github.io/projects/russian-travel",
+  //   githubLink: "https://github.com/ststas/russian-travel",
+  // },
 ] as const;
 
 export const BUTTON_STYLES =

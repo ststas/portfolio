@@ -34,7 +34,7 @@ function ProjectCard({
         />
       </div>
       <div className="p-0">
-        <h5 className="mb-4 truncate text-xl font-bold tracking-wider">{name}</h5>
+        <h5 className="mb-4 truncate text-center text-xl font-bold tracking-wider">{name}</h5>
         <div className="grid w-full grid-cols-2 gap-4">
           {BUTTONS.map((button) => {
             const link = button.type === BUTTON.web ? webLink : githubLink;
