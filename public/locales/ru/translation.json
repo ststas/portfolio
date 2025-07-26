@@ -8,6 +8,11 @@
     "projects": "Проекты",
     "contacts": "Контакты"
   },
+  "language": {
+    "en": "АНГ",
+    "he": "ИВР",
+    "ru": "РУС"
+  },
   "introduction": {
     "title": "Привет!",
     "subtitle": "Я",

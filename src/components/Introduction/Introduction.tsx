@@ -2,14 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { JSX, memo } from "react";
 
-import Section from "components/common/Section";
+import Section from "@/components/common/Section";
+import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 import { CV_BUTTON_LINK } from "./constants";
-import { useIntroductionTranslations } from "./i18n/useIntroductionTranslations";
 
 function Introduction(): JSX.Element {
-  const { title, subtitle, firstName, lastName, jobTitle, cvButton } =
-    useIntroductionTranslations();
+  const { introduction } = usePortfolioTranslations();
+  const { title, subtitle, firstName, lastName, jobTitle, cvButton } = introduction;
 
   return (
     <Section className="pt-[54px] sm:pt-[18px] md:pt-[54px]" id="hello-area" title={title}>

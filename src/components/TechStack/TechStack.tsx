@@ -1,11 +1,11 @@
 import { memo } from "react";
 
-import Section from "components/common/Section";
+import { Sections } from "@/components/common/constants";
+import Section from "@/components/common/Section";
+import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 import { TECH_ITEMS } from "./constants";
 import TechCard from "./TechCard";
-import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
-import { Sections } from "../common/constants";
 
 function TechStack(): JSX.Element {
   const {

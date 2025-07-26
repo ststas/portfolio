@@ -3,10 +3,15 @@ import { SectionType } from "@/components/common/types";
 import { ProjectButtonType, ProjectNameType } from "@/components/Projects/types";
 import { TechItemNameType } from "@/components/TechStack/types";
 
+import { SUPPORTED_LOCALES } from "./locales";
+
+export type SupportedLocaleType = (typeof SUPPORTED_LOCALES)[keyof typeof SUPPORTED_LOCALES];
+
 export type PortfolioTranslationsType = {
   header: {
     title: string;
     menu: Record<SectionType, string>;
+    languages: Record<SupportedLocaleType, string>;
   };
   introduction: {
     title: string;

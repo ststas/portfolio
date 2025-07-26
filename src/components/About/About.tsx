@@ -1,8 +1,8 @@
 import { memo } from "react";
 
-import Section from "components/common/Section";
-import { Sections } from "components/common/constants";
-import { usePortfolioTranslations } from "i18n/usePortfolioTranslations";
+import { Sections } from "@/components/common/constants";
+import Section from "@/components/common/Section";
+import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 function About(): JSX.Element {
   const {

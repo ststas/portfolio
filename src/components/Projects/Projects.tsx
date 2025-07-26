@@ -1,11 +1,12 @@
 import { memo } from "react";
 
-import Section from "components/common/Section";
+import Section from "@/components/common/Section";
+import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
+
+import { Sections } from "../common/constants";
 
 import { PROJECTS } from "./constants";
 import ProjectCard from "./ProjectCard";
-import { Sections } from "../common/constants";
-import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 function Projects(): JSX.Element {
   const {
@@ -18,9 +19,9 @@ function Projects(): JSX.Element {
         {PROJECTS.map((project) => (
           <ProjectCard
             key={project.name}
+            buttonsTranslations={buttons}
             project={project}
             translations={list[project.name]}
-            buttonsTranslations={buttons}
           />
         ))}
       </div>

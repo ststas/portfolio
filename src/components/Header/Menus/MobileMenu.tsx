@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { memo } from "react";
 
+import LanguageButtons from "@/components/Header/LanguageButtons/LanguageButtons";
+
 import { MenuClickHandler, MenuItem } from "./types";
 
 type Props = {
@@ -28,6 +30,9 @@ function MobileMenu({ items, isOpen, onItemClick }: Props): JSX.Element {
               {item.label}
             </Link>
           ))}
+          <div className="flex">
+            <LanguageButtons />
+          </div>
         </div>
       </div>
     </div>

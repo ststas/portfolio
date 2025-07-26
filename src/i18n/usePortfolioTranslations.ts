@@ -1,10 +1,12 @@
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 
-import { PortfolioTranslationsType } from "./types";
 import { Sections } from "@/components/common/constants";
-import { TECH_ITEMS_NAMES } from "@/components/TechStack/constants";
 import { BUTTON, PROJECTS_NAMES } from "@/components/Projects/constants";
+import { TECH_ITEMS_NAMES } from "@/components/TechStack/constants";
+
+import { SUPPORTED_LOCALES } from "./locales";
+import { PortfolioTranslationsType } from "./types";
 
 export function usePortfolioTranslations(): PortfolioTranslationsType {
   const { t } = useTranslation();
@@ -18,6 +20,11 @@ export function usePortfolioTranslations(): PortfolioTranslationsType {
           [Sections.techStack]: t("menu.techStack"),
           [Sections.projects]: t("menu.projects"),
           [Sections.contacts]: t("menu.contacts"),
+        },
+        languages: {
+          [SUPPORTED_LOCALES.en]: t("language.en"),
+          [SUPPORTED_LOCALES.he]: t("language.he"),
+          [SUPPORTED_LOCALES.ru]: t("language.ru"),
         },
       },
       introduction: {

@@ -1,7 +1,7 @@
 import { memo } from "react";
 
-import { BurgerIcon } from "components/common/BurgerIcon";
-import { CloseIcon } from "components/common/CloseIcon";
+import { BurgerIcon } from "@/components/common/BurgerIcon";
+import { CloseIcon } from "@/components/common/CloseIcon";
 
 type Props = {
   isOpen: boolean;

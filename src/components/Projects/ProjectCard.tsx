@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { memo } from "react";
 
-import Button from "components/common/Button";
+import Button from "@/components/common/Button";
 
 import { BUTTON, BUTTONS } from "./constants";
 import type { ProjectButtonType, ProjectType } from "./types";

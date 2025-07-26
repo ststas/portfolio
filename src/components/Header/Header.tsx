@@ -1,16 +1,18 @@
 import Link from "next/link";
 import { memo, useCallback, useRef, useState } from "react";
 
+import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
+
 import BurgerButton from "./Menus/BurgerButton";
 import DesktopMenu from "./Menus/DesktopMenu";
 import MobileMenu from "./Menus/MobileMenu";
 import { useMenuItems } from "./Menus/useMenuItems";
-import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 function Header(): JSX.Element {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const headerRef = useRef<HTMLElement>(null);
   const menuItems = useMenuItems();
+
   const {
     header: { title },
   } = usePortfolioTranslations();
@@ -47,7 +49,7 @@ function Header(): JSX.Element {
 
   return (
     <header ref={headerRef} className="sticky top-0 z-50 border-b border-[#495057] bg-[lightgray]">
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="w-full px-4 py-4">
         <div className="flex items-center justify-between">
           <Link
             className="text-xl font-bold text-black hover:text-gray-700"
@@ -56,13 +58,10 @@ function Header(): JSX.Element {
           >
             {title}
           </Link>
-
           <DesktopMenu items={menuItems} onItemClick={handleClick} />
-
           <BurgerButton isOpen={isMenuOpen} onClick={toggleMenu} />
         </div>
-
-        <MobileMenu items={menuItems} isOpen={isMenuOpen} onItemClick={handleClick} />
+        <MobileMenu isOpen={isMenuOpen} items={menuItems} onItemClick={handleClick} />
       </nav>
     </header>
   );

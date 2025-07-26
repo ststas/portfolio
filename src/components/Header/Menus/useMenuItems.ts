@@ -1,11 +1,11 @@
 import { useMemo } from "react";
 
-import { Sections } from "components/common/constants";
-import { SectionType } from "components/common/types";
+import { Sections } from "@/components/common/constants";
+import { SectionType } from "@/components/common/types";
+import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 import { MENU_H_REFS } from "./constants";
 import { MenuItem } from "./types";
-import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 export function useMenuItems(): MenuItem[] {
   const {

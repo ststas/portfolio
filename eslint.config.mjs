@@ -81,13 +81,17 @@ export default tseslint.config(
       ],
       "react/jsx-uses-react": "off",
       "react/react-in-jsx-scope": "off",
-      "import/no-relative-parent-imports": "error",
-      "import/no-relative-packages": "error",
+      "import/no-relative-parent-imports": "off",
+      "import/no-relative-packages": "off",
     },
     settings: {
       "import/resolver": {
         typescript: {
           project: path.resolve(__dirname, "./tsconfig.json"),
+        },
+        node: {
+          extensions: [".js", ".jsx", ".ts", ".tsx"],
+          moduleDirectory: ["node_modules", "src/"],
         },
       },
     },

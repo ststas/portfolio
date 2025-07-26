@@ -1,9 +1,10 @@
 import { JSX, memo } from "react";
 
+import { Sections } from "@/components/common/constants";
+import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
+
 import { SOCIAL_LINKS } from "./constants";
 import SocialLink from "./SocialLink";
-import { Sections } from "../common/constants";
-import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
 function Footer(): JSX.Element {
   const {
