@@ -65,20 +65,16 @@ jobs:
             PORT=3003 pm2 start npm --name "portfolio" -- start
             pm2 save
 
-            # Check PM2 logs to see what's happening
-            echo "PM2 logs:"
-            pm2 logs portfolio --lines 10 || echo "No logs available"
-
-            # Wait for app to start and check for "Ready" message
+            # Wait for app to start
             echo "Waiting for app to start..."
-            for i in {1..30}; do
-              if tail -n 20 /home/ubuntu/.pm2/logs/portfolio-out.log | grep -q "Ready in"; then
-                echo "✅ Application is ready!"
-                break
-              fi
-              echo "Waiting... attempt $i/30"
-              sleep 2
-            done
+            sleep 10
+
+            # Check if app is ready by looking at logs
+            if tail -n 20 /home/ubuntu/.pm2/logs/portfolio-out.log | grep -q "Ready in"; then
+              echo "✅ Application is ready!"
+            else
+              echo "⚠️ Application might not be ready, but continuing..."
+            fi
 
             # Final check
             curl -f http://localhost:3003 && echo "✅ App is running successfully on port 3003!" || echo "❌ App not responding"
