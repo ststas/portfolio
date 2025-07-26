@@ -65,9 +65,19 @@ jobs:
             pm2 start npm --name "portfolio" -- start
             pm2 save
 
-            # Check if app is running
-            sleep 5
-            curl -f http://localhost:3003 || echo "App not responding"
+            # Wait for app to start and check multiple times
+            echo "Waiting for app to start..."
+            for i in {1..10}; do
+              echo "Attempt $i: Checking if app is running..."
+              if curl -f http://localhost:3003 > /dev/null 2>&1; then
+                echo "App is running successfully!"
+                break
+              fi
+              sleep 3
+            done
+
+            # Final check
+            curl -f http://localhost:3003 || echo "App not responding after 30 seconds"
           EOF
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
