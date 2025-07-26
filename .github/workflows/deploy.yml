@@ -72,7 +72,7 @@ jobs:
             # Wait for app to start and check for "Ready" message
             echo "Waiting for app to start..."
             for i in {1..30}; do
-              if pm2 logs portfolio --lines 5 | grep -q "Ready in"; then
+              if tail -n 20 /home/ubuntu/.pm2/logs/portfolio-out.log | grep -q "Ready in"; then
                 echo "✅ Application is ready!"
                 break
               fi
