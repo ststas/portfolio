@@ -5,10 +5,15 @@ import { GlobeIcon } from "@/components/common/GlobeIcon";
 import { SUPPORTED_LOCALES } from "@/i18n/locales";
 import { SupportedLocaleType } from "@/i18n/types";
 import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
+import { MenuClickHandler } from "@/components/Header/Menus/types";
 
 import LanguageButton from "./LanguageButton";
 
-function LanguageButtons(): JSX.Element {
+type Props = {
+  closeMenu: () => void;
+};
+
+function LanguageButtons({ closeMenu }: Props): JSX.Element {
   const { i18n } = useTranslation();
   const {
     header: { languages },
@@ -19,6 +24,7 @@ function LanguageButtons(): JSX.Element {
       i18n.changeLanguage(lng);
       if (typeof window !== "undefined") {
         document.documentElement.dir = lng === "he" ? "rtl" : "ltr";
+        closeMenu();
       }
     },
     [i18n]

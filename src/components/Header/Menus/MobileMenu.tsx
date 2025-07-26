@@ -9,9 +9,10 @@ type Props = {
   items: MenuItem[];
   isOpen: boolean;
   onItemClick: MenuClickHandler;
+  closeMenu: () => void;
 };
 
-function MobileMenu({ items, isOpen, onItemClick }: Props): JSX.Element {
+function MobileMenu({ items, isOpen, onItemClick, closeMenu }: Props): JSX.Element {
   return (
     <div
       className={`grid transition-all duration-200 ease-in-out md:hidden ${
@@ -31,7 +32,7 @@ function MobileMenu({ items, isOpen, onItemClick }: Props): JSX.Element {
             </Link>
           ))}
           <div className="flex">
-            <LanguageButtons />
+            <LanguageButtons closeMenu={closeMenu} />
           </div>
         </div>
       </div>

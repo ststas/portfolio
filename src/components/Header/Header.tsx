@@ -29,6 +29,7 @@ function Header(): JSX.Element {
     (e: React.MouseEvent<HTMLAnchorElement>) => {
       e.preventDefault();
       const targetId = e.currentTarget.href.split("#")[1];
+
       if (targetId) {
         const element = document.getElementById(targetId);
         if (element && headerRef.current) {
@@ -61,7 +62,12 @@ function Header(): JSX.Element {
           <DesktopMenu items={menuItems} onItemClick={handleClick} />
           <BurgerButton isOpen={isMenuOpen} onClick={toggleMenu} />
         </div>
-        <MobileMenu isOpen={isMenuOpen} items={menuItems} onItemClick={handleClick} />
+        <MobileMenu
+          isOpen={isMenuOpen}
+          items={menuItems}
+          onItemClick={handleClick}
+          closeMenu={closeMenu}
+        />
       </nav>
     </header>
   );
