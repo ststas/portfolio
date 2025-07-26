@@ -61,8 +61,8 @@ jobs:
             # Stop and delete existing PM2 process
             pm2 delete portfolio || echo "No existing PM2 process"
 
-            # Start the application with PM2
-            pm2 start npm --name "portfolio" -- start
+            # Start the application with PM2 on port 3003
+            PORT=3003 pm2 start npm --name "portfolio" -- start
             pm2 save
 
             # Check PM2 logs to see what's happening
@@ -77,8 +77,12 @@ jobs:
               pm2 status
               echo "Process info:"
               pm2 show portfolio
+              echo "Checking port 3000 (default Next.js port):"
+              curl -f http://localhost:3000 > /dev/null 2>&1 && echo "App running on port 3000!" || echo "Port 3000 not responding"
+              echo "Checking port 3003 (expected port):"
+              curl -f http://localhost:3003 > /dev/null 2>&1 && echo "App running on port 3003!" || echo "Port 3003 not responding"
               if curl -f http://localhost:3003 > /dev/null 2>&1; then
-                echo "App is running successfully!"
+                echo "App is running successfully on port 3003!"
                 break
               fi
               sleep 3
