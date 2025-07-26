@@ -65,10 +65,18 @@ jobs:
             pm2 start npm --name "portfolio" -- start
             pm2 save
 
+            # Check PM2 logs to see what's happening
+            echo "PM2 logs:"
+            pm2 logs portfolio --lines 20 || echo "No logs available"
+
             # Wait for app to start and check multiple times
             echo "Waiting for app to start..."
             for i in {1..10}; do
               echo "Attempt $i: Checking if app is running..."
+              echo "PM2 status:"
+              pm2 status
+              echo "Process info:"
+              pm2 show portfolio
               if curl -f http://localhost:3003 > /dev/null 2>&1; then
                 echo "App is running successfully!"
                 break
