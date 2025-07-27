@@ -3,6 +3,8 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import resourcesToBackend from "i18next-resources-to-backend";
 import { initReactI18next } from "react-i18next";
 
+import { getLocaleCookie } from "@/utils/cookies";
+
 i18n
   .use(LanguageDetector)
   .use(
@@ -14,7 +16,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "en",
-    lng: "en",
+    lng: getLocaleCookie() || "en",
     debug: process.env.NODE_ENV === "development",
     interpolation: {
       escapeValue: false,

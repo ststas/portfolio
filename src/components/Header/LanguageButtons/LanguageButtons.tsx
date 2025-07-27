@@ -5,6 +5,7 @@ import { GlobeIcon } from "@/components/common/GlobeIcon";
 import { SUPPORTED_LOCALES } from "@/i18n/locales";
 import { SupportedLocaleType } from "@/i18n/types";
 import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
+import { setLocaleCookie } from "@/utils/cookies";
 
 import LanguageButton from "./LanguageButton";
 
@@ -23,6 +24,7 @@ function LanguageButtons({ onCloseMenu }: Props): JSX.Element {
       i18n.changeLanguage(lng);
       if (typeof window !== "undefined") {
         document.documentElement.dir = lng === "he" ? "rtl" : "ltr";
+        setLocaleCookie(lng);
         onCloseMenu();
       }
     },

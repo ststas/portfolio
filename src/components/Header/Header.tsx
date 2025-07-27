@@ -32,6 +32,7 @@ function Header(): JSX.Element {
 
       if (targetId) {
         const element = document.getElementById(targetId);
+
         if (element && headerRef.current) {
           const headerHeight = headerRef.current.offsetHeight;
           const elementPosition = element.getBoundingClientRect().top + window.scrollY;
