@@ -50,7 +50,7 @@ export const PROJECTS: ProjectType[] = [
     name: PROJECTS_NAMES.mesto,
     image: "/images/project-front-backend.jpg",
     webLink: "https://ststas.dev/mesto/",
-    githubLink: "https://github.com/ststas/react-mesto-api-full-gha",
+    githubLink: "https://github.com/ststas/mesto-docker",
   },
   {
     name: PROJECTS_NAMES.express,
@@ -85,6 +85,7 @@ export const PROJECTS: ProjectType[] = [
     name: PROJECTS_NAMES.gridFlex,
     image: "/images/project-littlefatboy.jpg",
     webLink: "https://ststas.github.io/projects/littlefatboy",
+    githubLink: "https://github.com/ststas/littlefatboy",
   },
   // {
   //   name: PROJECTS_NAMES.adaptive,
