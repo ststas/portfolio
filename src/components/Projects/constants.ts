@@ -61,7 +61,7 @@ export const PROJECTS: ProjectType[] = [
     name: PROJECTS_NAMES.react,
     image: "/images/project-mesto-react.jpg",
     webLink: "https://ststas.github.io/projects/mestoreact",
-    githubLink: "https://github.com/ststas/project-react-mesto-auth",
+    githubLink: "https://github.com/ststas/react-mesto-auth",
   },
   {
     name: PROJECTS_NAMES.game,
