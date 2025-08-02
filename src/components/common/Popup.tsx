@@ -23,7 +23,7 @@ function Popup({
   mediaType = PopupMediaType.image,
   title,
   onClose,
-}: PopupProps): JSX.Element | null {
+}: PopupProps): JSX.Element {
   useEffect(() => {
     const handleEscape = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -40,16 +40,18 @@ function Popup({
     };
   }, [isOpen, onClose]);
 
-  if (!isOpen) return null;
-
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-200/55 p-4">
+    <div
+      className={`fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4 transition-all duration-300 ease-in-out ${
+        isOpen ? "opacity-100" : "pointer-events-none opacity-0"
+      }`}
+    >
       <div
-        className={`relative max-h-[90vh] w-[90vw] rounded-lg bg-white shadow-2xl md:w-[70vw] lg:w-[600px] lg:max-w-[600px] xl:w-[600px] xl:max-w-[600px] 2xl:w-[600px] 2xl:max-w-[600px] ${
+        className={`relative max-h-[90vh] w-[90vw] transform rounded-lg bg-white shadow-2xl transition-all duration-300 ease-in-out md:w-[70vw] lg:w-[600px] lg:max-w-[600px] xl:w-[600px] xl:max-w-[600px] 2xl:w-[600px] 2xl:max-w-[600px] ${
           mediaType === PopupMediaType.youtube
             ? "lg:w-[960px] lg:max-w-[960px] xl:w-[960px] xl:max-w-[960px] 2xl:w-[960px] 2xl:max-w-[960px]"
             : ""
-        }`}
+        } ${isOpen ? "scale-100 opacity-100" : "scale-95 opacity-0"}`}
       >
         <Button
           ariaLabel="Close popup"
@@ -71,6 +73,7 @@ function Popup({
               alt={title}
               className="w-full object-contain"
               height={ImageSize.height}
+              sizes="(max-width: 640px) 90vw, (max-width: 768px) 70vw, (max-width: 1024px) 600px, 960px"
               src={mediaSrc}
               width={ImageSize.width}
             />

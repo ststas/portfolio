@@ -10,8 +10,8 @@
   },
   "language": {
     "en": "EN",
-    "he": "HE",
-    "ru": "RU"
+    "he": "אנג",
+    "ru": "РУ"
   },
   "introduction": {
     "title": "Hello!",
@@ -87,58 +87,58 @@
       },
       "movies": {
         "name": "Search Movies Service",
-        "description": "Fullstack: React, Express.js",
-        "fullDescription": "Fullstack: React, Express.js"
+        "description": "React, Express.js",
+        "fullDescription": "A full-stack React and Express web app for searching, filtering, and saving movies (BeatFilm API), with JWT-based authentication, MongoDB database, deployed via Docker and automated with GitHub Actions."
       },
       "mesto": {
         "name": "Pics Exchange Service",
-        "description": "Fullstack: React, Express.js",
-        "fullDescription": "Fullstack: React, Express.js"
+        "description": "React, Express.js",
+        "fullDescription": "A full-stack photo-sharing social network app with React frontend and Express backend, featuring JWT authentication, logging, and CORS, with automated deployment using Docker and GitHub Actions."
       },
       "todolist": {
         "name": "Todolist",
         "description": "React, TS, Express.js",
-        "fullDescription": "React, TS, Express.js"
+        "fullDescription": "A task management app with a React + TypeScript frontend and an Express.js + MongoDB backend, containerized with Docker and deployed automatically via GitHub Actions."
       },
       "drummachine": {
-        "name": "DrumMachine MVP",
+        "name": "Drum Machine",
         "description": "React",
-        "fullDescription": "React"
+        "fullDescription": "An MVP of a drum synthesizer and sequencer inspired by the Roland TR-909, built with React for creating and programming electronic drum patterns."
       },
       "express": {
         "name": "API for Pics Exchange Service",
-        "description": "Backend: Express.js",
-        "fullDescription": "Backend: Express.js"
+        "description": "Express.js",
+        "fullDescription": "This is a Node.js backend for a photo-sharing social network, built with Express and MongoDB. It handles user authentication via JWT, profile updates, card management (add/delete, like/dislike), custom error handling, and request validation with Joi."
       },
       "react": {
         "name": "Pics Exchange Service",
-        "description": "Frontend: React",
+        "description": "React",
         "fullDescription": "Frontend: React"
       },
       "game": {
         "name": "Shoot The Expert Game",
         "description": "React",
-        "fullDescription": "React"
+        "fullDescription": "Shoot The Expert is a simple SPA game built with React, designed as an engaging landing page element."
       },
       "javascript": {
         "name": "Pics Exchange Service",
         "description": "JavaScript",
-        "fullDescription": "JavaScript"
+        "fullDescription": "This is a social network frontend built with plain JavaScript, HTML, and CSS. It allows users to update their profile info and avatar, add/delete posts with custom validation, like or dislike posts, and enlarge images in a popup. The app communicates with the backend via REST API and is optimized for both desktop and mobile browsers."
       },
       "warTimer": {
         "name": "War Timer",
         "description": "JavaScript",
-        "fullDescription": "JavaScript"
+        "fullDescription": "War Timer is a simple app that counts the time passed since the war in Ukraine started. It uses third-party APIs for user geo-location and sunrise/sunset times to toggle dark/light themes, built with vanilla JavaScript and REST APIs."
       },
       "gridFlex": {
-        "name": "Grid & FlexBox",
+        "name": "Little Fat Boy",
         "description": "HTML, CSS",
-        "fullDescription": "HTML, CSS"
+        "fullDescription": "Little Fat Boy is a food blog’s main page featuring several blocks including Header and Navigation, with adaptive design using Flexbox and a “This Week” section built with CSS Grid. The layout follows Nested-BEM, Mobile-first, and Adaptive-design principles."
       },
       "adaptive": {
-        "name": "Adaptive Website",
+        "name": "Project Travel",
         "description": "HTML, CSS",
-        "fullDescription": "HTML, CSS"
+        "fullDescription": "PROJECT TRAVEL - one-page responsive website dedicated to traveling, featuring adaptive design with CSS Grid, built using HTML, CSS, JavaScript, Nested-BEM, Mobile-first, and Adaptive-design principles."
       },
       "storyBook": {
         "name": "Charts",

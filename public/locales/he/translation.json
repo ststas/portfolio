@@ -9,9 +9,9 @@
     "contacts": "צור קשר"
   },
   "language": {
-    "en": "עבר",
+    "en": "EN",
     "he": "אנג",
-    "ru": "רוס"
+    "ru": "РУ"
   },
   "introduction": {
     "title": "שלום!",
@@ -87,28 +87,28 @@
       },
       "movies": {
         "name": "Search Movies Service",
-        "description": "Fullstack: React, Express.js",
-        "fullDescription": "Fullstack: React, Express.js"
+        "description": "React, Express.js",
+        "fullDescription": "אפליקציית ווב ב-React ו-Express לחיפוש, סינון ושמירת סרטים (API של BeatFilm), עם אימות JWT, מסד נתונים MongoDB, פריסה ב-Docker ואוטומציה דרך GitHub Actions."
       },
       "mesto": {
         "name": "Pics Exchange Service",
-        "description": "Fullstack: React, Express.js",
-        "fullDescription": "Fullstack: React, Express.js"
+        "description": "React, Express.js",
+        "fullDescription": "אפליקציית רשת חברתית לשיתוף תמונות עם פרונטאנד ב-React ובקאנד ב-Express, הכוללת אימות JWT, לוגים ו-CORS, ופריסה אוטומטית באמצעות Docker ו-GitHub Actions."
       },
       "todolist": {
         "name": "Todolist",
         "description": "React, TS, Express.js",
-        "fullDescription": "React, TS, Express.js"
+        "fullDescription": "אפליקציית ניהול משימות עם ממשק משתמש ב-React ו-TypeScript, שרת ב-Express.js ו-MongoDB, בקונטיינרים של Docker עם פריסה אוטומטית דרך GitHub Actions."
       },
       "drummachine": {
-        "name": "DrumMachine MVP",
+        "name": "Drum Machine",
         "description": "React",
-        "fullDescription": "React"
+        "fullDescription": "אב טיפוס (MVP) של סינתיסייזר וסיקוונסר תופים בהשראת Roland TR-909, נבנה ב-React ליצירה ותכנות של מקצבים אלקטרוניים."
       },
       "express": {
         "name": "API for Pics Exchange Service",
-        "description": "Backend: Express.js",
-        "fullDescription": "Backend: Express.js"
+        "description": "Express.js",
+        "fullDescription": "זהו backend של Node.js עבור רשת חברתית לשיתוף תמונות, שנבנה באמצעות Express ו-MongoDB. הוא מטפל באימות משתמשים דרך JWT, עדכוני פרופילים, ניהול כרטיסים (הוספה/מחיקה, לייק/דיסלייק), טיפול בשגיאות מותאמות אישית ואימות בקשות עם Joi."
       },
       "react": {
         "name": "Pics Exchange Service",
@@ -118,32 +118,32 @@
       "game": {
         "name": "Shoot The Expert Game",
         "description": "React",
-        "fullDescription": "React"
+        "fullDescription": "Shoot The Expert הוא משחק SPA פשוט, שנבנה באמצעות React, ועוצב כאלמנט אטרקטיבי בדף נחיתה."
       },
       "javascript": {
         "name": "Pics Exchange Service",
         "description": "JavaScript",
-        "fullDescription": "JavaScript"
+        "fullDescription": "זהו ממשק משתמש (frontend) לרשת חברתית שנבנה באמצעות JavaScript, HTML ו-CSS פשוטים. הוא מאפשר למשתמשים לעדכן את פרטי הפרופיל והאווטאר שלהם, להוסיף/למחוק פוסטים עם אימות מותאם אישית, לסמן לייק או דיסלייק לפוסטים ולהגדיל תמונות בחלון קופץ. האפליקציה מתקשרת עם ה-backend דרך REST API ומותאמת לדפדפנים למחשבים שולחניים ולמכשירים ניידים כאחד."
       },
       "warTimer": {
         "name": "War Timer",
         "description": "JavaScript",
-        "fullDescription": "JavaScript"
+        "fullDescription": "War Timer היא אפליקציה פשוטה שמציגה את הזמן שעבר מאז תחילת המלחמה באוקראינה. האפליקציה משתמשת ב-API חיצוניים לזיהוי מיקום המשתמש וזמני זריחה/שקיעה כדי להחליף בין ערכות נושא כהה ובהירה, ונבנתה עם JavaScript ו-REST API."
       },
       "gridFlex": {
-        "name": "Grid & FlexBox",
+        "name": "Little Fat Boy",
         "description": "HTML, CSS",
-        "fullDescription": "HTML, CSS"
+        "fullDescription": "Little Fat Boy היא הדף הראשי של בלוג אוכל, הכולל מספר בלוקים כמו כותרת וניווט, עם עיצוב אדפטיבי מבוסס Flexbox וקטע השבוע שנבנה באמצעות CSS Grid. העיצוב מבוסס על עקרונות Nested-BEM, Mobile-first ו-Adaptive-design."
       },
       "adaptive": {
-        "name": "Adaptive Website",
+        "name": "Project Travel",
         "description": "HTML, CSS",
-        "fullDescription": "HTML, CSS"
+        "fullDescription": "PROJECT TRAVEL — אתר דף יחיד רספונסיבי המוקדש לטיולים, עם עיצוב אדפטיבי באמצעות CSS Grid, בנוי ב-HTML, CSS, JavaScript, בשיטת Nested-BEM, Mobile-first ועקרונות עיצוב אדפטיבי."
       },
       "storyBook": {
         "name": "Charts",
         "description": "React, TS, VISX, Storybook",
-        "fullDescription": "React, TS, VISX, Storybook"
+        "fullDescription": "ספריית רכיבי React מבוססת TypeScript עבור גרפים אינטראקטיביים עם VISX, כולל גרפים של קווים, רדיאלים ועמודות - מתועדת ב-Storybook ומיועדת לשימוש פנימי."
       }
     },
     "buttons": {

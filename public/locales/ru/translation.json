@@ -9,9 +9,9 @@
     "contacts": "Контакты"
   },
   "language": {
-    "en": "АНГ",
-    "he": "ИВР",
-    "ru": "РУС"
+    "en": "EN",
+    "he": "אנג",
+    "ru": "РУ"
   },
   "introduction": {
     "title": "Привет!",
@@ -87,28 +87,28 @@
       },
       "movies": {
         "name": "Сервис поиска фильмов",
-        "description": "Фулстек: React, Express.js",
-        "fullDescription": "Фулстек: React, Express.js"
+        "description": "React, Express.js",
+        "fullDescription": "Приложение на React и Express для поиска, фильтрации и сохранения фильмов (API BeatFilm), с авторизацией через JWT, базой данных MongoDB, деплоем через Docker и автоматизацией на GitHub Actions."
       },
       "mesto": {
         "name": "Сервис обмена фотографиями",
-        "description": "Фулстек: React, Express.js",
-        "fullDescription": "Фулстек: React, Express.js"
+        "description": "React, Express.js",
+        "fullDescription": "Приложение для обмена фотографиями с фронтендом на React и бэкендом на Express, с поддержкой JWT аутентификации, логированием и CORS, с автоматизированным деплоем через Docker и GitHub Actions"
       },
       "todolist": {
         "name": "Список задач",
         "description": "React, TS, Express.js",
-        "fullDescription": "React, TS, Express.js"
+        "fullDescription": "Приложение для управления задачами с интерфейсом на React и TypeScript и серверной частью на Express.js и MongoDB, контейнеризовано через Docker и развёрнуто с помощью GitHub Actions."
       },
       "drummachine": {
-        "name": "Синтезатор ударных MVP",
+        "name": "Синтезатор ударных",
         "description": "React",
-        "fullDescription": "React"
+        "fullDescription": "MVP синтезатора и секвенсора ударных, вдохновлённого Roland TR-909, разработан на React для создания и программирования электронных ритмов."
       },
       "express": {
         "name": "API для сервиса обмена фотографиями",
-        "description": "Бэкенд: Express.js",
-        "fullDescription": "Бэкенд: Express.js"
+        "description": "Express.js",
+        "fullDescription": "Backend на Node.js для социальной сети обмена фотографиями, реализованный с использованием Express и MongoDB. Обеспечивает аутентификацию пользователей через JWT, обновление профиля, управление карточками (добавление/удаление, лайки/дизлайки), обработку ошибок и валидацию запросов с помощью Joi"
       },
       "react": {
         "name": "Cервис обмена фотографиями",
@@ -118,32 +118,32 @@
       "game": {
         "name": "Игра Shoot The Expert",
         "description": "React",
-        "fullDescription": "React"
+        "fullDescription": "Shoot The Expert — это простая SPA-игра, созданная с помощью React, предназначенная для использования на лендинге"
       },
       "javascript": {
         "name": "Сервис обмена фотографиями",
         "description": "JavaScript",
-        "fullDescription": "JavaScript"
+        "fullDescription": "Фронтенд социальной сети, реализованный на чистом JavaScript, HTML и CSS. Пользователи могут обновлять информацию и аватар, добавлять и удалять посты с кастомной валидацией, ставить лайки или дизлайки, а также увеличивать изображения в попапе. Все запросы к серверу осуществляются через REST API. Приложение адаптировано для мобильных и десктопных устройств."
       },
       "warTimer": {
         "name": "Таймер войны",
         "description": "JavaScript",
-        "fullDescription": "JavaScript"
+        "fullDescription": "War Timer — простое приложение, показывающее время, прошедшее с начала войны в Украине. Для определения геолокации пользователя и времени восхода/заката солнца (чтобы переключать тёмную/светлую тему) используются сторонние API. Реализовано на чистом JavaScript с использованием REST API."
       },
       "gridFlex": {
-        "name": "Grid & FlexBox",
+        "name": "Little Fat Boy",
         "description": "HTML, CSS",
-        "fullDescription": "HTML, CSS"
+        "fullDescription": "Little Fat Boy — главная страница фуд-блога, состоящая из нескольких блоков, включая шапку и навигацию, с адаптивным дизайном на Flexbox и секцией «На этой неделе», реализованной с помощью CSS Grid. Верстка выполнена по принципам Nested-BEM, Mobile-first и Adaptive-design."
       },
       "adaptive": {
-        "name": "Адаптивный сайт",
+        "name": "Путешествия",
         "description": "HTML, CSS",
-        "fullDescription": "HTML, CSS"
+        "fullDescription": "Проект Путешествия — одностраничный адаптивный сайт, посвященный путешествиям, с адаптивным дизайном на CSS Grid, реализованный с использованием HTML, CSS, JavaScript, Nested-BEM, Mobile-first и Adaptive-design."
       },
       "storyBook": {
         "name": "Графики",
         "description": "React, TS, VISX, Storybook",
-        "fullDescription": "React, TS, VISX, Storybook"
+        "fullDescription": "Библиотека React-компонентов для интерактивных графиков на основе VISX с использованием TypeScript, включающая линейные, радиальные и столбчатые диаграммы - документирована в Storybook и предназначена для внутреннего использования."
       }
     },
     "buttons": {
