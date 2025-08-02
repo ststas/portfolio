@@ -81,56 +81,56 @@
     "title": "Проекты",
     "list": {
       "next": {
-        "name": "Портфолио SSR App",
-        "description": "Серверные компоненты, маршрутизация, API"
+        "name": "Портфолио (Next.js + TS)",
+        "description": "Next.js, TS, SSR App"
       },
       "movies": {
-        "name": "Приложение для поиска фильмов",
-        "description": "Приложение для поиска фильмов"
+        "name": "Сервис поиска фильмов",
+        "description": "Фулстек: React, Express.js"
       },
       "mesto": {
-        "name": "Сервис для обмена фотографиями",
-        "description": "Сервис для обмена фотографиями"
+        "name": "Сервис обмена фотографиями",
+        "description": "Фулстек: React, Express.js"
       },
       "todolist": {
         "name": "Список задач",
-        "description": "Список задач"
+        "description": "React, TS, Express.js"
       },
       "drummachine": {
-        "name": "Синтезатор MVP",
-        "description": "Синтезатор Drum Machine"
-      },
-      "express": {
-        "name": "Express.js",
-        "description": "Express.js"
-      },
-      "react": {
-        "name": "React",
+        "name": "Синтезатор ударных MVP",
         "description": "React"
       },
+      "express": {
+        "name": "API для сервиса обмена фотографиями",
+        "description": "Бэкенд: Express.js"
+      },
+      "react": {
+        "name": "Cервис обмена фотографиями",
+        "description": "Фронтенд: React"
+      },
       "game": {
-        "name": "Игра на React",
-        "description": "Игра на React"
+        "name": "Игра Shoot The Expert",
+        "description": "React"
       },
       "javascript": {
-        "name": "JavaScript",
+        "name": "Сервис обмена фотографиями",
         "description": "JavaScript"
       },
       "warTimer": {
         "name": "Таймер войны",
-        "description": "Таймер войны"
+        "description": "JavaScript"
       },
       "gridFlex": {
         "name": "Grid & FlexBox",
-        "description": "Grid & FlexBox"
+        "description": "HTML, CSS"
       },
       "adaptive": {
         "name": "Адаптивный сайт",
-        "description": "Адаптивный сайт"
+        "description": "HTML, CSS"
       },
       "storyBook": {
-        "name": "StoryBook + VISX",
-        "description": "StoryBook и VISX"
+        "name": "Графики",
+        "description": "React, TS, VISX, Storybook"
       }
     },
     "buttons": {

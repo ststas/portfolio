@@ -81,56 +81,56 @@
     "title": "פרויקטים",
     "list": {
       "next": {
-        "name": "Portfolio SSR App",
-        "description": "Server components, routing, API routes"
+        "name": "Portfolio",
+        "description": "Next.js, TS, SSR App"
       },
       "movies": {
-        "name": "Movies Web App",
-        "description": "Movies Web App"
+        "name": "Search Movies Service",
+        "description": "Fullstack: React, Express.js"
       },
       "mesto": {
-        "name": "Mesto Web App",
-        "description": "Mesto Web App"
+        "name": "Pics Exchange Service",
+        "description": "Fullstack: React, Express.js"
       },
       "todolist": {
-        "name": "TodoList TS",
-        "description": "TodoList TS"
+        "name": "Todolist",
+        "description": "React, TS, Express.js"
       },
       "drummachine": {
         "name": "DrumMachine MVP",
-        "description": "DrumMachine Synthesizer"
-      },
-      "express": {
-        "name": "Express.js",
-        "description": "Express.js"
-      },
-      "react": {
-        "name": "React",
         "description": "React"
       },
+      "express": {
+        "name": "API for Pics Exchange Service",
+        "description": "Backend: Express.js"
+      },
+      "react": {
+        "name": "Pics Exchange Service",
+        "description": "Frontend: React"
+      },
       "game": {
-        "name": "Game On React",
-        "description": "Game On React"
+        "name": "Shoot The Expert Game",
+        "description": "React"
       },
       "javascript": {
-        "name": "JavaScript",
+        "name": "Pics Exchange Service",
         "description": "JavaScript"
       },
       "warTimer": {
-        "name": "War Timer JS",
-        "description": "War Timer JS"
+        "name": "War Timer",
+        "description": "JavaScript"
       },
       "gridFlex": {
         "name": "Grid & FlexBox",
-        "description": "Grid & FlexBox"
+        "description": "HTML, CSS"
       },
       "adaptive": {
         "name": "Adaptive Website",
-        "description": "Adaptive Website"
+        "description": "HTML, CSS"
       },
       "storyBook": {
-        "name": "StoryBook + VISX",
-        "description": "StoryBook и VISX"
+        "name": "Charts",
+        "description": "React, TS, VISX, Storybook"
       }
     },
     "buttons": {

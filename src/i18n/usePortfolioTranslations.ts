@@ -122,10 +122,10 @@ export function usePortfolioTranslations(): PortfolioTranslationsType {
             name: t("projects.list.express.name"),
             description: t("projects.list.express.description"),
           },
-          [PROJECTS_NAMES.react]: {
-            name: t("projects.list.react.name"),
-            description: t("projects.list.react.description"),
-          },
+          // [PROJECTS_NAMES.react]: {
+          //   name: t("projects.list.react.name"),
+          //   description: t("projects.list.react.description"),
+          // },
           [PROJECTS_NAMES.game]: {
             name: t("projects.list.game.name"),
             description: t("projects.list.game.description"),
@@ -142,10 +142,10 @@ export function usePortfolioTranslations(): PortfolioTranslationsType {
             name: t("projects.list.gridFlex.name"),
             description: t("projects.list.gridFlex.description"),
           },
-          // [PROJECTS_NAMES.adaptive]: {
-          //   name: t("projects.list.adaptive.name"),
-          //   description: t("projects.list.adaptive.description"),
-          // },
+          [PROJECTS_NAMES.adaptive]: {
+            name: t("projects.list.adaptive.name"),
+            description: t("projects.list.adaptive.description"),
+          },
           [PROJECTS_NAMES.storyBook]: {
             name: t("projects.list.storyBook.name"),
             description: t("projects.list.storyBook.description"),

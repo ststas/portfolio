@@ -7,12 +7,12 @@ export const PROJECTS_NAMES: Record<string, string> = {
   todolist: "todolist",
   drummachine: "drummachine",
   express: "express",
-  react: "react",
+  // react: "react",
   game: "game",
   javascript: "javascript",
   warTimer: "warTimer",
   gridFlex: "gridFlex",
-  // adaptive: "adaptive",
+  adaptive: "adaptive",
   storyBook: "storyBook",
 } as const;
 
@@ -53,27 +53,10 @@ export const PROJECTS: ProjectType[] = [
     githubLink: "https://github.com/ststas/mesto-docker",
   },
   {
-    name: PROJECTS_NAMES.express,
-    image: "/images/project-express.jpg",
-    githubLink: "https://github.com/ststas/express-mesto-gha",
-  },
-  {
-    name: PROJECTS_NAMES.react,
-    image: "/images/project-mesto-react.jpg",
-    webLink: "https://ststas.github.io/projects/mestoreact",
-    githubLink: "https://github.com/ststas/react-mesto-auth",
-  },
-  {
     name: PROJECTS_NAMES.game,
     image: "/images/project-kill-the-expert.jpg",
     webLink: "https://ststas.github.io/projects/game",
     githubLink: "https://github.com/ststas/killtheexpert",
-  },
-  {
-    name: PROJECTS_NAMES.javascript,
-    image: "/images/project-mesto-java.jpg",
-    webLink: "https://ststas.github.io/projects/mestojava/",
-    githubLink: "https://github.com/ststas/mesto",
   },
   {
     name: PROJECTS_NAMES.warTimer,
@@ -82,17 +65,34 @@ export const PROJECTS: ProjectType[] = [
     githubLink: "https://github.com/sweezi19/wartime/tree/new-version",
   },
   {
+    name: PROJECTS_NAMES.express,
+    image: "/images/project-express.jpg",
+    githubLink: "https://github.com/ststas/express-mesto-gha",
+  },
+  // {
+  //   name: PROJECTS_NAMES.react,
+  //   image: "/images/project-mesto-react.jpg",
+  //   webLink: "https://ststas.github.io/projects/mestoreact",
+  //   githubLink: "https://github.com/ststas/react-mesto-auth",
+  // },
+  {
+    name: PROJECTS_NAMES.javascript,
+    image: "/images/project-mesto-java.jpg",
+    webLink: "https://ststas.github.io/projects/mestojava/",
+    githubLink: "https://github.com/ststas/mesto",
+  },
+  {
     name: PROJECTS_NAMES.gridFlex,
     image: "/images/project-littlefatboy.jpg",
     webLink: "https://ststas.github.io/projects/littlefatboy",
     githubLink: "https://github.com/ststas/littlefatboy",
   },
-  // {
-  //   name: PROJECTS_NAMES.adaptive,
-  //   image: "/images/project-travel.jpg",
-  //   webLink: "https://ststas.github.io/projects/russian-travel",
-  //   githubLink: "https://github.com/ststas/russian-travel",
-  // },
+  {
+    name: PROJECTS_NAMES.adaptive,
+    image: "/images/project-travel.jpg",
+    webLink: "https://ststas.github.io/projects/russian-travel",
+    githubLink: "https://github.com/ststas/russian-travel",
+  },
 ] as const;
 
 export const BUTTON_STYLES =
