@@ -34,7 +34,7 @@ export type PortfolioTranslationsType = {
   };
   [Sections.projects]: {
     title: string;
-    list: Record<ProjectNameType, { name: string; description: string }>;
+    list: Record<ProjectNameType, { name: string; description: string; fullDescription?: string }>;
     buttons: Record<ProjectButtonType, string>;
   };
   [Sections.contacts]: {

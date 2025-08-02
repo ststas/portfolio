@@ -82,55 +82,68 @@
     "list": {
       "next": {
         "name": "Portfolio",
-        "description": "Next.js, TS, SSR App"
+        "description": "Next.js, TS, SSR App",
+        "fullDescription": "A fast, server-side rendered developer portfolio using Next.js, with multilingual support, responsive UI, and built with React, TypeScript, and Tailwind CSS."
       },
       "movies": {
         "name": "Search Movies Service",
-        "description": "Fullstack: React, Express.js"
+        "description": "Fullstack: React, Express.js",
+        "fullDescription": "Fullstack: React, Express.js"
       },
       "mesto": {
         "name": "Pics Exchange Service",
-        "description": "Fullstack: React, Express.js"
+        "description": "Fullstack: React, Express.js",
+        "fullDescription": "Fullstack: React, Express.js"
       },
       "todolist": {
         "name": "Todolist",
-        "description": "React, TS, Express.js"
+        "description": "React, TS, Express.js",
+        "fullDescription": "React, TS, Express.js"
       },
       "drummachine": {
         "name": "DrumMachine MVP",
-        "description": "React"
+        "description": "React",
+        "fullDescription": "React"
       },
       "express": {
         "name": "API for Pics Exchange Service",
-        "description": "Backend: Express.js"
+        "description": "Backend: Express.js",
+        "fullDescription": "Backend: Express.js"
       },
       "react": {
         "name": "Pics Exchange Service",
-        "description": "Frontend: React"
+        "description": "Frontend: React",
+        "fullDescription": "Frontend: React"
       },
       "game": {
         "name": "Shoot The Expert Game",
-        "description": "React"
+        "description": "React",
+        "fullDescription": "React"
       },
       "javascript": {
         "name": "Pics Exchange Service",
-        "description": "JavaScript"
+        "description": "JavaScript",
+        "fullDescription": "JavaScript"
       },
       "warTimer": {
         "name": "War Timer",
-        "description": "JavaScript"
+        "description": "JavaScript",
+        "fullDescription": "JavaScript"
       },
       "gridFlex": {
         "name": "Grid & FlexBox",
-        "description": "HTML, CSS"
+        "description": "HTML, CSS",
+        "fullDescription": "HTML, CSS"
       },
       "adaptive": {
         "name": "Adaptive Website",
-        "description": "HTML, CSS"
+        "description": "HTML, CSS",
+        "fullDescription": "HTML, CSS"
       },
       "storyBook": {
         "name": "Charts",
-        "description": "React, TS, VISX, Storybook"
+        "description": "React, TS, VISX, Storybook",
+        "fullDescription": "A TypeScript-based React component library for interactive charts built with VISX, featuring line, radar, and bar charts - documented in Storybook and designed for internal use."
       }
     },
     "buttons": {

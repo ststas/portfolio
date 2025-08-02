@@ -81,56 +81,69 @@
     "title": "Проекты",
     "list": {
       "next": {
-        "name": "Портфолио (Next.js + TS)",
-        "description": "Next.js, TS, SSR App"
+        "name": "Портфолио",
+        "description": "Next.js, TS, SSR App",
+        "fullDescription": "Портфолио разработчика с серверным рендерингом на Next.js: поддержка нескольких языков, адаптивный интерфейс и стек технологий - React, TypeScript и Tailwind CSS."
       },
       "movies": {
         "name": "Сервис поиска фильмов",
-        "description": "Фулстек: React, Express.js"
+        "description": "Фулстек: React, Express.js",
+        "fullDescription": "Фулстек: React, Express.js"
       },
       "mesto": {
         "name": "Сервис обмена фотографиями",
-        "description": "Фулстек: React, Express.js"
+        "description": "Фулстек: React, Express.js",
+        "fullDescription": "Фулстек: React, Express.js"
       },
       "todolist": {
         "name": "Список задач",
-        "description": "React, TS, Express.js"
+        "description": "React, TS, Express.js",
+        "fullDescription": "React, TS, Express.js"
       },
       "drummachine": {
         "name": "Синтезатор ударных MVP",
-        "description": "React"
+        "description": "React",
+        "fullDescription": "React"
       },
       "express": {
         "name": "API для сервиса обмена фотографиями",
-        "description": "Бэкенд: Express.js"
+        "description": "Бэкенд: Express.js",
+        "fullDescription": "Бэкенд: Express.js"
       },
       "react": {
         "name": "Cервис обмена фотографиями",
-        "description": "Фронтенд: React"
+        "description": "Фронтенд: React",
+        "fullDescription": "Фронтенд: React"
       },
       "game": {
         "name": "Игра Shoot The Expert",
-        "description": "React"
+        "description": "React",
+        "fullDescription": "React"
       },
       "javascript": {
         "name": "Сервис обмена фотографиями",
-        "description": "JavaScript"
+        "description": "JavaScript",
+        "fullDescription": "JavaScript"
       },
       "warTimer": {
         "name": "Таймер войны",
-        "description": "JavaScript"
+        "description": "JavaScript",
+        "fullDescription": "JavaScript"
       },
       "gridFlex": {
         "name": "Grid & FlexBox",
-        "description": "HTML, CSS"
+        "description": "HTML, CSS",
+        "fullDescription": "HTML, CSS"
       },
       "adaptive": {
         "name": "Адаптивный сайт",
-        "description": "HTML, CSS"
+        "description": "HTML, CSS",
+        "fullDescription": "HTML, CSS"
       },
       "storyBook": {
         "name": "Графики",
-        "description": "React, TS, VISX, Storybook"
+        "description": "React, TS, VISX, Storybook",
+        "fullDescription": "React, TS, VISX, Storybook"
       }
     },
     "buttons": {

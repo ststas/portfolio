@@ -101,54 +101,67 @@ export function usePortfolioTranslations(): PortfolioTranslationsType {
           [PROJECTS_NAMES.next]: {
             name: t("projects.list.next.name"),
             description: t("projects.list.next.description"),
+            fullDescription: t("projects.list.next.fullDescription"),
           },
           [PROJECTS_NAMES.movies]: {
             name: t("projects.list.movies.name"),
             description: t("projects.list.movies.description"),
+            fullDescription: t("projects.list.movies.fullDescription"),
           },
           [PROJECTS_NAMES.mesto]: {
             name: t("projects.list.mesto.name"),
             description: t("projects.list.mesto.description"),
+            fullDescription: t("projects.list.mesto.fullDescription"),
           },
           [PROJECTS_NAMES.todolist]: {
             name: t("projects.list.todolist.name"),
             description: t("projects.list.todolist.description"),
+            fullDescription: t("projects.list.todolist.fullDescription"),
           },
           [PROJECTS_NAMES.drummachine]: {
             name: t("projects.list.drummachine.name"),
             description: t("projects.list.drummachine.description"),
+            fullDescription: t("projects.list.drummachine.fullDescription"),
           },
           [PROJECTS_NAMES.express]: {
             name: t("projects.list.express.name"),
             description: t("projects.list.express.description"),
+            fullDescription: t("projects.list.express.fullDescription"),
           },
           // [PROJECTS_NAMES.react]: {
           //   name: t("projects.list.react.name"),
           //   description: t("projects.list.react.description"),
+          //   fullDescription: t("projects.list.react.fullDescription"),
           // },
           [PROJECTS_NAMES.game]: {
             name: t("projects.list.game.name"),
             description: t("projects.list.game.description"),
+            fullDescription: t("projects.list.game.fullDescription"),
           },
           [PROJECTS_NAMES.javascript]: {
             name: t("projects.list.javascript.name"),
             description: t("projects.list.javascript.description"),
+            fullDescription: t("projects.list.javascript.fullDescription"),
           },
           [PROJECTS_NAMES.warTimer]: {
             name: t("projects.list.warTimer.name"),
             description: t("projects.list.warTimer.description"),
+            fullDescription: t("projects.list.warTimer.fullDescription"),
           },
           [PROJECTS_NAMES.gridFlex]: {
             name: t("projects.list.gridFlex.name"),
             description: t("projects.list.gridFlex.description"),
+            fullDescription: t("projects.list.gridFlex.fullDescription"),
           },
           [PROJECTS_NAMES.adaptive]: {
             name: t("projects.list.adaptive.name"),
             description: t("projects.list.adaptive.description"),
+            fullDescription: t("projects.list.adaptive.fullDescription"),
           },
           [PROJECTS_NAMES.storyBook]: {
             name: t("projects.list.storyBook.name"),
             description: t("projects.list.storyBook.description"),
+            fullDescription: t("projects.list.storyBook.fullDescription"),
           },
         },
         buttons: {

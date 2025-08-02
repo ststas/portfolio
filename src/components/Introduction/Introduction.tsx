@@ -41,6 +41,7 @@ function Introduction(): JSX.Element {
             priority
             alt="Stanislav Zaitsev"
             className="rounded-lg object-cover"
+            sizes="(min-width: 768px) 768px, (min-width: 640px) 640px, 100vw"
             src="/images/my-avatar.jpg"
           />
         </div>

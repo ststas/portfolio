@@ -1,7 +1,8 @@
 import Image from "next/image";
-import { memo } from "react";
+import { memo, useState } from "react";
 
 import Button from "@/components/common/Button";
+import Popup from "@/components/common/Popup";
 
 import { BUTTON, BUTTONS } from "./constants";
 import type { ProjectButtonType, ProjectType } from "./types";
@@ -11,6 +12,7 @@ type ProjectCardProps = {
   translations: {
     name: string;
     description: string;
+    fullDescription?: string;
   };
   buttonsTranslations: Record<ProjectButtonType, string>;
 };
@@ -20,8 +22,9 @@ function ProjectCard({
   translations,
   buttonsTranslations,
 }: ProjectCardProps): JSX.Element {
-  const { image, webLink, githubLink } = project;
-  const { name, description } = translations;
+  const { image, mediaSrc, webLink, githubLink, mediaType } = project;
+  const { name, description, fullDescription } = translations;
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   return (
     <div className="border-none bg-transparent">
@@ -29,8 +32,10 @@ function ProjectCard({
         <Image
           fill
           alt={description}
-          className="object-mid rounded border border-gray-600 object-cover saturate-0 filter transition-all duration-400 ease-in-out hover:scale-[1.015] hover:filter-[saturate(115%)]"
+          className="object-mid cursor-pointer rounded border border-gray-600 object-cover saturate-0 filter transition-all duration-400 ease-in-out hover:scale-[1.015] hover:filter-[saturate(115%)]"
+          sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
           src={image}
+          onClick={() => setIsPopupOpen(true)}
         />
       </div>
       <div className="p-0">
@@ -55,6 +60,14 @@ function ProjectCard({
           })}
         </div>
       </div>
+      <Popup
+        description={fullDescription || description}
+        isOpen={isPopupOpen}
+        mediaSrc={mediaSrc}
+        mediaType={mediaType}
+        title={name}
+        onClose={() => setIsPopupOpen(false)}
+      />
     </div>
   );
 }
