@@ -86,7 +86,7 @@
         "fullDescription": "פורטפוליו למפתח עם רינדור בצד השרת מהיר, מבוסס Next.js, עם תמיכה בריבוי שפות, ממשק רספונסיבי, ובנוי עם React, TypeScript ו-Tailwind CSS."
       },
       "movies": {
-        "name": "Search Movies Service",
+        "name": "Movie Search Service",
         "description": "React, Express.js",
         "fullDescription": "אפליקציית ווב ב-React ו-Express לחיפוש, סינון ושמירת סרטים (API של BeatFilm), עם אימות JWT, מסד נתונים MongoDB, פריסה ב-Docker ואוטומציה דרך GitHub Actions."
       },

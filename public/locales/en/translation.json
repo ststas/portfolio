@@ -86,7 +86,7 @@
         "fullDescription": "A fast, server-side rendered developer portfolio using Next.js, with multilingual support, responsive UI, and built with React, TypeScript, and Tailwind CSS."
       },
       "movies": {
-        "name": "Search Movies Service",
+        "name": "Movie Search Service",
         "description": "React, Express.js",
         "fullDescription": "A full-stack React and Express web app for searching, filtering, and saving movies (BeatFilm API), with JWT-based authentication, MongoDB database, deployed via Docker and automated with GitHub Actions."
       },
