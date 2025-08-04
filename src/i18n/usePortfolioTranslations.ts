@@ -34,6 +34,7 @@ export function usePortfolioTranslations(): PortfolioTranslationsType {
         lastName: t("introduction.lastName"),
         jobTitle: t("introduction.jobTitle"),
         cvButton: t("introduction.cvButton"),
+        portfolioButton: t("introduction.portfolioButton"),
       },
       [Sections.about]: {
         title: t("about.title"),

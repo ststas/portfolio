@@ -5,11 +5,12 @@ import { JSX, memo } from "react";
 import Section from "@/components/common/Section";
 import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
 
-import { CV_BUTTON_LINK } from "./constants";
+import { CV_BUTTON_LINK, PORTFOLIO_BUTTON_LINK } from "./constants";
 
 function Introduction(): JSX.Element {
   const { introduction } = usePortfolioTranslations();
-  const { title, subtitle, firstName, lastName, jobTitle, cvButton } = introduction;
+  const { title, subtitle, firstName, lastName, jobTitle, cvButton, portfolioButton } =
+    introduction;
 
   return (
     <Section className="pt-[54px] sm:pt-[18px] md:pt-[54px]" id="hello-area" title={title}>
@@ -27,12 +28,20 @@ function Introduction(): JSX.Element {
           </h2>
           <h4 className="mb-[10%] text-xl sm:text-2xl">{jobTitle}</h4>
           <Link
-            className="inline-block rounded-lg border border-black px-4 py-2 transition-colors hover:bg-gray-200 sm:px-6 sm:py-3"
+            className="mr-2 mb-2 inline-block rounded-lg border border-black px-4 py-2 transition-colors hover:bg-gray-200 sm:px-6 sm:py-3 rtl:mr-0 rtl:ml-2"
             href={CV_BUTTON_LINK}
             rel="noopener noreferrer"
             target="_blank"
           >
             {cvButton}
+          </Link>
+          <Link
+            className="mb-2 inline-block rounded-lg border border-black px-4 py-2 transition-colors hover:bg-gray-200 sm:px-6 sm:py-3 rtl:ml-2"
+            href={PORTFOLIO_BUTTON_LINK}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {portfolioButton}
           </Link>
         </div>
         <div className="relative h-48 w-full sm:h-64 md:h-96">

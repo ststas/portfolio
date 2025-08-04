@@ -19,7 +19,8 @@
     "firstName": "Станислав",
     "lastName": "Зайцев",
     "jobTitle": "Фронтенд разработчик",
-    "cvButton": "Скачать CV"
+    "cvButton": "Скачать CV",
+    "portfolioButton": "Скачать Портфолио"
   },
   "about": {
     "title": "Обо мне",

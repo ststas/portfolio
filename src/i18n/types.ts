@@ -20,6 +20,7 @@ export type PortfolioTranslationsType = {
     lastName: string;
     jobTitle: string;
     cvButton: string;
+    portfolioButton: string;
   };
   [Sections.about]: {
     title: string;

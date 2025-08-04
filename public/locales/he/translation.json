@@ -19,7 +19,8 @@
     "firstName": "סטניסלב",
     "lastName": "זייצב",
     "jobTitle": "מפתח פרונטאנד",
-    "cvButton": "הצגת קורות חיים"
+    "cvButton": "הצגת קורות חיים",
+    "portfolioButton": "הצגת תיק עבודות"
   },
   "about": {
     "title": "עליי",

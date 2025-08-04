@@ -19,7 +19,8 @@
     "firstName": "Stanislav",
     "lastName": "Zaitsev",
     "jobTitle": "Frontend Developer",
-    "cvButton": "Get CV"
+    "cvButton": "Get CV",
+    "portfolioButton": "Get Portfolio"
   },
   "about": {
     "title": "About Me",
