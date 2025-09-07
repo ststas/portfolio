@@ -16,19 +16,18 @@ function Introduction(): JSX.Element {
     <Section className="pt-[54px] sm:pt-[18px] md:pt-[54px]" id="hello-area" title={title}>
       <div className="grid items-center gap-8 md:grid-cols-2">
         <div className="max-w-full">
-          <h2 className="mb-0 text-[39px] font-bold break-words sm:text-[39px] md:text-[54px]">
-            {subtitle}
-          </h2>
-          <h2 className="mb-0 text-[39px] font-bold break-words sm:text-[39px] md:text-[54px]">
-            {firstName}
-          </h2>
-
-          <h2 className="mb-0 text-[39px] font-bold break-words sm:text-[39px] md:text-[54px]">
-            {lastName}
-          </h2>
+          {[subtitle, firstName, lastName].map((name) => (
+            <h2
+              key={name}
+              className="mb-0 text-[39px] font-bold break-words sm:text-[39px] md:text-[54px]"
+            >
+              {name}
+            </h2>
+          ))}
           <h4 className="mb-[10%] text-xl sm:text-2xl">{jobTitle}</h4>
           <Link
             className="mr-2 mb-2 inline-block rounded-lg border border-black px-4 py-2 transition-colors hover:bg-gray-200 sm:px-6 sm:py-3 rtl:mr-0 rtl:ml-2"
+            data-testid="cv-button"
             href={CV_BUTTON_LINK}
             rel="noopener noreferrer"
             target="_blank"
@@ -37,6 +36,7 @@ function Introduction(): JSX.Element {
           </Link>
           <Link
             className="mb-2 inline-block rounded-lg border border-black px-4 py-2 transition-colors hover:bg-gray-200 sm:px-6 sm:py-3 rtl:ml-2"
+            data-testid="portfolio-button"
             href={PORTFOLIO_BUTTON_LINK}
             rel="noopener noreferrer"
             target="_blank"

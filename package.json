@@ -8,7 +8,15 @@
     "start": "next start",
     "export": "next export",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:install": "playwright install",
+    "lighthouse": "lhci autorun",
+    "lighthouse:local": "lhci autorun --upload.target=filesystem --upload.outputDir=./lighthouse-reports"
   },
   "dependencies": {
     "i18next": "^25.2.1",
@@ -22,6 +30,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@playwright/test": "^1.55.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

@@ -12,12 +12,13 @@ type Props = {
 
 function DesktopMenu({ items, onItemClick }: Props): JSX.Element {
   return (
-    <div className="hidden md:block">
+    <div className="hidden md:block" data-testid="desktop-menu">
       <div className="flex space-x-8 rtl:space-x-8">
         {items.map((item) => (
           <Link
             key={item.href}
             className="text-black hover:text-gray-700"
+            data-testid={`nav-link-${item.href.replace("#", "")}`}
             href={item.href}
             onClick={onItemClick}
           >

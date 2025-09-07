@@ -50,11 +50,16 @@ function Header(): JSX.Element {
   );
 
   return (
-    <header ref={headerRef} className="sticky top-0 z-50 border-b border-[#495057] bg-[lightgray]">
+    <header
+      ref={headerRef}
+      className="sticky top-0 z-50 border-b border-[#495057] bg-[lightgray]"
+      data-testid="main-header"
+    >
       <nav className="w-full px-4 py-4">
         <div className="flex items-center justify-between">
           <Link
             className="text-xl font-bold text-black hover:text-gray-700"
+            data-testid="header-title-link"
             href="#hello-area"
             onClick={handleClick}
           >

@@ -1,7 +1,7 @@
 import { memo, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 
-import { GlobeIcon } from "@/components/common/GlobeIcon";
+import { GlobeIcon } from "@/components/common/icons/GlobeIcon";
 import { SUPPORTED_LOCALES } from "@/i18n/locales";
 import { SupportedLocaleType } from "@/i18n/types";
 import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";

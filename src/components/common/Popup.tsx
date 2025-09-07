@@ -2,8 +2,8 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 import Button from "./Button";
-import { CloseIcon } from "./CloseIcon";
 import { ImageSize, PopupMediaType } from "./constants";
+import { CloseIcon } from "./icons/CloseIcon";
 import { MediaType } from "./types";
 import VideoContainer from "./VideoContainer";
 

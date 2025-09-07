@@ -2,7 +2,7 @@ import { memo, useCallback, useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 import Button from "@/components/common/Button";
-import { GlobeIcon } from "@/components/common/GlobeIcon";
+import { GlobeIcon } from "@/components/common/icons/GlobeIcon";
 import { SUPPORTED_LOCALES } from "@/i18n/locales";
 import { SupportedLocaleType } from "@/i18n/types";
 import { usePortfolioTranslations } from "@/i18n/usePortfolioTranslations";
@@ -34,7 +34,7 @@ function LanguageDropdown(): JSX.Element {
     setIsOpen((prev) => !prev);
   }, []);
 
-  // Закрытие dropdown при клике вне компонента
+  // close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -53,6 +53,7 @@ function LanguageDropdown(): JSX.Element {
       <Button
         aria-label="Change language"
         className="flex items-center justify-center rounded-lg text-black transition-colors hover:text-gray-700"
+        data-testid="language-dropdown"
         onClick={toggleDropdown}
       >
         <GlobeIcon className="h-4.5 w-4.5 text-black" />

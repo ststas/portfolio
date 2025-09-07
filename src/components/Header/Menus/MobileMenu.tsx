@@ -18,6 +18,7 @@ function MobileMenu({ items, isOpen, onItemClick, onCloseMenu }: Props): JSX.Ele
       className={`grid transition-all duration-200 ease-in-out md:hidden ${
         isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
       }`}
+      data-testid="mobile-menu"
     >
       <div className="overflow-hidden">
         <div className="flex flex-col space-y-4 bg-[lightgray] py-4">
