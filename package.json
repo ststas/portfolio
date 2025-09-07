@@ -14,9 +14,7 @@
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:report": "playwright show-report",
-    "test:install": "playwright install",
-    "lighthouse": "lhci autorun",
-    "lighthouse:local": "lhci autorun --upload.target=filesystem --upload.outputDir=./lighthouse-reports"
+    "test:install": "playwright install"
   },
   "dependencies": {
     "i18next": "^25.2.1",
